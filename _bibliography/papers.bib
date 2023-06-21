@@ -1,29 +1,63 @@
 ---
 ---
 
+
+
+@article{bhi23,
+  title={Law of Large Numbers for the Final Size of an Infection via Herd Immunity},
+  author={Borgs, Christian and Huang, Karissa  and Christian Ikeokwu},
+  journal={In Preparation},
+  dcat={preprints},
+  preview={sir-epidemic-spread.gif},
+  year={2023}
+}
+
+@inproceedings{bciv23,
+  title={Disincentivizing Polarization in Social Networks},
+  author={Borgs, Christian and Chayes, Jennifer and Christian Ikeokwu and Vitercik, Ellen},
+  booktitle={Submission},
+  year={2023},
+  arxiv = {2305.14537},
+  selected = {false},
+  bibtex_show={false},
+  abbr={arXiv},
+  pdf = {bciv23.pdf},
+  dcat = {preprints},
+  abstract = {On social networks, algorithmic personalization drives users into filter bubbles where they rarely see content that deviates from their interests. We present a model for content curation and personalization that avoids filter bubbles, along with algorithmic guarantees and nearly matching lower bounds. In our model, the platform interacts with $n$ users over $T$ timesteps, choosing content for each user from $k$ categories. The platform receives stochastic rewards as in a multi-arm bandit. To avoid filter bubbles, we draw on the intuition that if some users are shown some category of content, then all users should see at least a small amount of that content. We first analyze a naive formalization of this intuition and show it has unintended consequences: it leads to ``tyranny of the majority'' with the burden of diversification borne disproportionately by those with minority interests. This leads us to our model which distributes this burden more equitably. We require that the probability any user is shown a particular type of content is at least $\gamma$ times the average probability all users are shown that type of content. Full personalization corresponds to $\gamma = 0$ and complete homogenization corresponds to $\gamma = 1$; hence, $\gamma$ encodes a hard cap on the level of personalization. We also analyze additional formulations where the platform can exceed its cap but pays a penalty proportional to its constraint violation. We provide algorithmic guarantees for optimizing recommendations subject to these constraints. These include nearly matching upper and lower bounds for the entire range of $\gamma \in [0,1]$ showing that the cumulative reward of a multi-agent variant of the Upper-Confidence-Bound algorithm is nearly optimal. Using real-world preference data, we empirically verify that under our model, users share the burden of diversification and experience only minor utility loss when recommended more diversified content.}
+}
+@inproceedings{aeit22,
+  title={An Algorithmic Introduction to Savings Circles},
+  author={Abebe, Rediet and Eck, Adam and Christian Ikeokwu and Taggart, Samuel},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={5},
+  pages={4744--4751},
+  year={2022},
+  arxiv = {2203.12486},
+  selected = {true},
+  bibtex_show={true},
+  abbr={AAAI},
+  pdf = {aeit22.pdf},
+  dcat = {conference},
+  abstract = {Rotating savings and credit associations (roscas) are informal financial organizations common in settings where communities have reduced access to formal financial institutions. In a rosca, a fixed group of participants regularly contribute sums of money to a pot. This pot is then allocated periodically using lottery, aftermarket, or auction mechanisms. Roscas are empirically well-studied in economics. They are, however, challenging to study theoretically due to their dynamic nature. Typical economic analyses of roscas stop at coarse ordinal welfare comparisons to other credit allocation mechanisms, leaving much of roscas' ubiquity unexplained. In this work, we take an algorithmic perspective on the study of roscas. Building on techniques from the price of anarchy literature, we present worst-case welfare approximation guarantees. We further experimentally compare the welfare of outcomes as key features of the environment vary. These cardinal welfare analyses further rationalize the prevalence of roscas. We conclude by discussing several other promising avenues},
+}
+
+
+@thesis{honors_thesis,
+  bibtex_show={true},
+  title={The Mathematics of Mutual Aid: Robust Welfare Guarantees for Decentralized Financial Organizations},
+  author={Ikeokwu, Christian},
+  booktitle={the Oberlin College Computer Science Honors Program},
+  year={2021},
+  pdf={honors_thesis.pdf},
+  dcat=thesis
+}
+
+
+
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
 @article{PhysRev.47.777,
   abbr={PhysRev},
@@ -44,41 +78,7 @@
   pdf={example_pdf.pdf},
   altmetric={248277},
   dimensions={true},
-  selected={true}
+  selected= {false}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
