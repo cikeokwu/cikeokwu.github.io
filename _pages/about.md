@@ -2,25 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student in Computer Science, <a href="https://eecs.berkeley.edu/" target="_blank">EECS</a>, <a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: christian-ikeokwu.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p></p>
+    <p></p>
+
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a 2nd-year PhD student in the <a href="http://theory.cs.berkeley.edu/"  target="_blank"> Theory Group</a> and 
+<a href="https://bair.berkeley.edu/" target="_blank">Berkeley AI Research (BAIR)</a>, fortunate to be advised by <a href="http://christianborgs.com/" target="_blank">Christian Borgs</a>
+and <a href="http://jenniferchayes.com/" target="_blank">Jennifer Chayes</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm broadly interested in theoretical computer science, artificial intelligence and mathematical economics. 
+Most recently, graph theory, algorithmic game theory, statistical learning and their various intersections. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also think about how tools and techniques from TCS, AI and economic design 
+can yield insights about important societal problems.
+
+Before Berkeley, I graduated from  <a href="https://www.oberlin.edu/"  target="_blank"> Oberlin College</a> with a BA
+in <a href="https://www.oberlin.edu/arts-and-sciences/departments/mathematics"  target="_blank"> Mathematics</a>
+and <a href="https://www.cs.oberlin.edu/"  target="_blank"> Computer Science</a>, and I'm extremely
+grateful for the mentorship of <a href="https://www.cs.oberlin.edu/~aeck/"  target="_blank"> Adam Eck</a>
+and <a href="http://www.samueltaggart.com/"  target="_blank"> Sam Taggart</a> during my undergraduate years. 
