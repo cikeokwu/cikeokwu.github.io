@@ -22,6 +22,11 @@ $light-purple-color:  lighten($purple-color, 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
+$green-color-ben:     #16ae58 !default;
+$green-color-ben-light: #45CE0E !default;
+$green-color-ben-mid: darken($green-color-ben-light, 0%);
+$wanda-color:         #ff00ff !default;
+$cosmo-color:         #16ae58 !default;
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
