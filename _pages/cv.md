@@ -1,9 +1,8 @@
 ---
-layout: pdf
-permalink: 
+layout: cv
+permalink: /cv/
 title: cv
 nav: true
-nav_order: 3
-cv_pdf:
-file_name: ikeokwu_cv 
+nav_order: 4
+cv_pdf: ikeokwu_cv.pdf
 ---
