@@ -4,7 +4,7 @@
 
 
 @article{bhi23,
-  title={Law of Large Numbers for the Final Size of an Infection via Herd Immunity},
+  title={Epidemic Spread on Networks with Community Structure},
   author={Borgs, Christian and Huang, Karissa  and Christian Ikeokwu},
   journal={In Preparation},
   dcat={preprints},
@@ -12,19 +12,23 @@
   year={2023}
 }
 
-@inproceedings{bciv23,
-  title={Disincentivizing Polarization in Social Networks},
+
+
+
+@inproceedings{bciv23a,
+  title={Disincentivizing Filter Bubbles in Social Networks},
   author={Borgs, Christian and Chayes, Jennifer and Christian Ikeokwu and Vitercik, Ellen},
-  booktitle={Submission},
+  booktitle={ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization},
   year={2023},
   arxiv = {2305.14537},
-  selected = {false},
+  selected = {true},
   bibtex_show={false},
-  abbr={arXiv},
+  abbr={EAAMO},
   pdf = {bciv23.pdf},
-  dcat = {preprints},
+  dcat = {conference},
   abstract = {On social networks, algorithmic personalization drives users into filter bubbles where they rarely see content that deviates from their interests. We present a model for content curation and personalization that avoids filter bubbles, along with algorithmic guarantees and nearly matching lower bounds. In our model, the platform interacts with $n$ users over $T$ timesteps, choosing content for each user from $k$ categories. The platform receives stochastic rewards as in a multi-arm bandit. To avoid filter bubbles, we draw on the intuition that if some users are shown some category of content, then all users should see at least a small amount of that content. We first analyze a naive formalization of this intuition and show it has unintended consequences: it leads to ``tyranny of the majority'' with the burden of diversification borne disproportionately by those with minority interests. This leads us to our model which distributes this burden more equitably. We require that the probability any user is shown a particular type of content is at least $\gamma$ times the average probability all users are shown that type of content. Full personalization corresponds to $\gamma = 0$ and complete homogenization corresponds to $\gamma = 1$; hence, $\gamma$ encodes a hard cap on the level of personalization. We also analyze additional formulations where the platform can exceed its cap but pays a penalty proportional to its constraint violation. We provide algorithmic guarantees for optimizing recommendations subject to these constraints. These include nearly matching upper and lower bounds for the entire range of $\gamma \in [0,1]$ showing that the cumulative reward of a multi-agent variant of the Upper-Confidence-Bound algorithm is nearly optimal. Using real-world preference data, we empirically verify that under our model, users share the burden of diversification and experience only minor utility loss when recommended more diversified content.}
 }
+
 @inproceedings{aeit22,
   title={An Algorithmic Introduction to Savings Circles},
   author={Abebe, Rediet and Eck, Adam and Christian Ikeokwu and Taggart, Samuel},
