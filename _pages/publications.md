@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: authors are listed in alphabetical order, which is the norm in theoretical computer science and mathematics.
-years: [2023, 2022, 2021, 2020]
+years: [2024, 2023, 2022, 2021, 2020]
 display_categories: [preprints, conference, thesis]
 nav: true
 nav_order: 1

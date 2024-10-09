@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a 3rd-year PhD student in the <a href="http://theory.cs.berkeley.edu/"  target="_blank"> Theory Group</a> and 
+I'm a PhD student in the <a href="http://theory.cs.berkeley.edu/"  target="_blank"> Theory Group</a> and 
 <a href="https://bair.berkeley.edu/" target="_blank">Berkeley AI Research (BAIR)</a>, fortunate to be advised by <a href="http://christianborgs.com/" target="_blank">Christian Borgs</a>
 and <a href="http://jenniferchayes.com/" target="_blank">Jennifer Chayes</a>.
 
